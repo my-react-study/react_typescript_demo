@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import AppRouter from "./router/AppRouter";
 import { createStore } from "redux";
-import reducer from "./reducers/index";
+import reducer from "./reducers/counter";
 import { Provider } from "react-redux";
 // 1、创建 store
 let store = createStore(reducer);

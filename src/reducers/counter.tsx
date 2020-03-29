@@ -1,5 +1,5 @@
-import { ModifyAction } from "../actions";
-import { DECREMENT, INCREMENT } from "../constants";
+import { ModifyAction } from "../actions/counterAction";
+import { DECREMENT, INCREMENT } from "../constants/counter";
 import { StoreState } from "../types";
 
 let initState: StoreState = { number: 0 };
